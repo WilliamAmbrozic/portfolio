@@ -12,49 +12,98 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="js/bootstrap.js""></script>
 		<style>
+
+			.navbar-nav li a {
+				line-height: 40px;
+			}
+			body {
+				overflow-x: hidden;
+			}
 			section {
 				width: 100vw;
 				height: 100vh;
 				padding: 50px;
+    				padding-right: 15px;
+    				padding-left: 15px;
+    				margin-right: auto;
+    				margin-left: auto;
 			}
-			.cl_white {
-				color white;
+			img[src*="images/socials/"] {
+				opacity: .5;
 			}
-		</style>
-		<style>
-			.navbar-nav > li{
-  				padding-left:5px;
-  				padding-right:5px;
-				padding-top:10px;
+			img[src*="images/socials/"]:hover {
+				opacity: 1;
+			}
+			.container {
+				width: 100vw;
+				height: 100vh;
+				padding: 50px;
+    				padding-right: 15px;
+    				padding-left: 15px;
+    				margin-right: auto;
+    				margin-left: auto;
+			}
+			.row {
+    				margin-right: -15px;
+    				margin-left: -15px;
 			}
 		</style>	
 	</head>	
-	<body data-spy="scroll" data-target=".navbar"> 
+	<body data-spy="scroll" data-target=".navbar" class="wrapper container"> 
+		<div class="row">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<u1 class="nav navbar-nav">
-				<li><img class="baby" width="60px" vspace = "5px" src="images/black_sig.svg"></li>
-				<li><a href="projects">Projects</a></li>
-				<li><a href="videos">Videos</a></li>
-				<li><a href="artwork">Logo Design / Artwork</a></li>
-				<li><a href="contact">Cantact</a></li>
-				<li><a href="about">About</a></li>
+				<li><a href="#home"><img class="baby" width="40px" src="images/black_sig.svg"></a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#videos">Videos</a></li>
+				<li><a href="#art">Logo Design / Artwork</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about">About</a></li>
 			</u1>
-			<form class="navbar-form navbar-left" action="/action_page.php">
-     				<div class="form-group">
-       				<input type="text" class="form-control" placeholder="Search">
-      				</div>
-   			</form>
-  		 <div">
+  		 <div>
       			<ul class="nav navbar-nav navbar-right">
-				<li><a href="https://twitter.com/williamambrozic" target="_blank"><img class="baby" width="30px" src="images/socials/twitter.svg"></a></li>
-				<li><a href="https://instagram.com/williamambrozic" target="_blank"><img class="baby" width="30px" src="images/socials/insta.svg"></a></li>
-				<li><a href="https://www.linkedin.com/in/william-ambrozic-84aa94135/?originalSubdomain=ca" target="_blank"><img class="baby" width="30px" src="images/socials/in.svg"></a></li>
-				<li><a href="https://www.youtube.com/channel/UCL-VushY6SO0ofPTZ8iB3ag" target="_blank"><img class="baby" width="30px" src="images/socials/youtube.svg"></a></li>
-				<li><a href="https://github.com/WilliamAmbrozic" target="_blank"><img class="baby" width="30px" src="images/socials/github.svg"></a></li>
-				<li><a href="mailto:william.ambrozic@gmail.com"><img class="baby" width="30px" src="images/socials/mail.svg"></a></li>
+				<li><a href="https://twitter.com/williamambrozic" target="_blank"><img class="baby" width="25px" src="images/socials/twitter.svg"></a></li>
+				<li><a href="https://instagram.com/williamambrozic" target="_blank"><img class="baby" width="25px" src="images/socials/insta.svg"></a></li>
+				<li><a href="https://www.linkedin.com/in/william-ambrozic-84aa94135/?originalSubdomain=ca" target="_blank"><img class="baby" width="25px" src="images/socials/in.svg"></a></li>
+				<li><a href="https://www.youtube.com/channel/UCL-VushY6SO0ofPTZ8iB3ag" target="_blank"><img class="baby" width="25px" src="images/socials/youtube.svg"></a></li>
+				<li><a href="https://github.com/WilliamAmbrozic" target="_blank"><img class="baby" width="25px" src="images/socials/github.svg"></a></li>
+				<li><a href="mailto:william.ambrozic@gmail.com"><img class="baby" width="25px" src="images/socials/mail.svg"></a></li>
 		        </ul>
 		 </div>
+		</div>
 		</nav>
-		<section id="projects" style="background: black;" class="cl_white text-center">
+		<div class="row">
+		<section id="home" style="background: rgb(26, 26, 26); background-size: 100% 100%;" class="cl_white text-center">
+			<h1>Test</h1>
+			<p class="lead">testing</p>
+		</section>
+		</div>
+		<div class="row">
+		<section id="projects" style="background: rgb(26, 26, 26); background-size: 100% 100%;" class="cl_white text-center">
+			<h1>Test</h1>
+			<p class="lead">testing</p>
+		</section>
+		</div>
+		<div class="row">
+		<section id="videos" style="background: rgb(40, 40, 40); background-size: 100% 100%;" class="container">
+			<h1>test</h1>
+		</section>
+		</div>
+		<div class="row">
+		<section id="art" style="background: rgb(26, 26, 26); background-size: 100% 100%;" class="container">
+			<h1>test</h1>
+		</section>
+		</div>
+		</div>
+		<div class="row">
+		<section id="contact" style="background: rgb(40, 40, 40); background-size: 100% 100%;" class="container">
+			<h1>test</h1>
+		</section>
+		</div>
+		<div class="row">
+		<section id="about" style="background: rgb(26, 26, 26); background-size: 100% 100%;" class="container">
+			<h1>test</h1>
+		</section>
+		</div>
 	</body>
 </html>
