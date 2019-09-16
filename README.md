@@ -1,4 +1,4 @@
-# portfolio (IN DEVELOPMENT)
+# portfolio
 Personal Website
 
 [williamambrozic.info](http://williamambrozic.info/)
